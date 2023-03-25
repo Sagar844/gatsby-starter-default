@@ -1,7 +1,7 @@
 import React from "react";
 import Servicescard from "./servicescard";
 
-export default function OurServices() {
+const  OurServices = ( ) =>  {
   return (
     <>
       <div className="items-center text-center my-28">
@@ -15,3 +15,5 @@ export default function OurServices() {
     </>
   );
 }
+
+export default OurServices

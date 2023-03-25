@@ -1,7 +1,7 @@
-import * as React from "react";
-import Button from "./button";
+import * as React from "react"
+import Button from "./button"
 
-export default function Navbar() {
+const Navbar = () => {
   return (
     <>
       <nav className="  px-2.5 py-3 lg:py-2 md:py-2 mx-12 ">
@@ -30,5 +30,6 @@ export default function Navbar() {
         </div>
       </nav>
     </>
-  );
+  )
 }
+export default Navbar
