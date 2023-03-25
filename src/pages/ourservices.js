@@ -1,7 +1,7 @@
-import React from "react";
-import Servicescard from "./servicescard";
+import React from "react"
+import Servicescard from "./servicescard"
 
-const  OurServices = ( ) =>  {
+const Services = () => {
   return (
     <>
       <div className="items-center text-center my-28">
@@ -13,7 +13,7 @@ const  OurServices = ( ) =>  {
       </div>
       <Servicescard />
     </>
-  );
+  )
 }
 
-export default OurServices
+export default Services
