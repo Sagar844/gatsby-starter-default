@@ -1,26 +1,19 @@
 import * as React from "react"
-import Bestspecialist from "./bestspecialist"
-import Clinic from "./clinic_with_Innovative"
-import Contact from "./Contact/contact"
-import Customer from "./CustomersReview/customer"
-import Doctorcart from "./DoctorCart/doctorcart"
-import Footer from "./footer"
-// import Navbar from "../pages/navbar"
-// import Services from "./OurServices"
+import Seo from "../components/seo"
+import Layout from "../components/layout"
+import { Link } from "gatsby"
 
 export default function Home() {
   return (
     <>
       <div>
-        {/* <Navbar /> */}
-        <Bestspecialist />
-        {/* <Services /> */}
-        <Clinic />
-        <Doctorcart />
-        <Customer />
-        <Contact />
-        <Footer />
+        <Layout>
+          <h1 className="text-red-500">how from gatsby</h1>
+          <Link to="/about">about</Link>
+        </Layout>
       </div>
     </>
   )
 }
+
+export const Head = () => <Seo title="All posts" />
