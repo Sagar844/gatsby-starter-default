@@ -1,6 +1,6 @@
 import * as React from "react";
 import Button from "./button";
-// import image from "./assest/doctor.jpg";
+import image from "./assest/doctor.jpg";
 export default function Bestspecialist() {
   return (
     <>
@@ -28,7 +28,7 @@ export default function Bestspecialist() {
           </div>
         </div>
 
-        {/* <img alt="doctor" className="w-96 rounded-md" src={image} /> */}
+        <img alt="doctor" className="w-96 rounded-md" src={image} />
       </div>
     </>
   );
